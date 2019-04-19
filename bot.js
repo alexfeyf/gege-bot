@@ -21,15 +21,16 @@ bot.on('ready', function (evt) {
     logger.info(bot.username + ' - (' + bot.id + ')');
 });
 
-bot.on('message', function (user, userID, channelID, message, evt) {
-    
+bot.on('message', function (user, userID, channelID, message, evt)
+{    
     if (message.substring(0, 1) == '!')
     {
         var args = message.substring(1).split(' ');
         var cmd = args[0];
        
         args = args.splice(1);
-        switch(cmd) {
+        switch(cmd)
+        {
             case 'sav': 
             case 'gege':
             case 'tourte':
@@ -149,11 +150,11 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             // Just add any case commands if you want to..
          }
      }
-     else if (message.content.includes('ibbü'))
-     {
+    else if (message.includes('ibbu' || 'ibbü'))
+    {
         bot.sendMessage({
             to: channelID,
-            message: "Je t'ai eu ;) Je vais le rapporter à Coline !" 
+            message: 'Screen faite ;) Je vais le rapporter à Coline ! #poucave' 
         });
-     }
+    }
 });
