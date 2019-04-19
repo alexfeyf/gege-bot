@@ -23,7 +23,8 @@ bot.on('ready', function (evt) {
 
 bot.on('message', function (user, userID, channelID, message, evt) {
     
-    if (message.substring(0, 1) == '!') {
+    if (message.substring(0, 1) == '!')
+    {
         var args = message.substring(1).split(' ');
         var cmd = args[0];
        
@@ -147,5 +148,12 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             break;
             // Just add any case commands if you want to..
          }
+     }
+     else if (message.content.includes('ibbü'))
+     {
+        bot.sendMessage({
+            to: channelID,
+            message: "Je t'ai eu ;) Je vais le rapporter à Coline !" 
+        });
      }
 });
