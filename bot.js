@@ -155,7 +155,7 @@ bot.on('message', function (user, userID, channelID, message, evt)
     {
         bot.sendMessage({
             to: channelID,
-            message: 'Screen faite ;) Je vais le rapporter à Fruzsina ! #poucave\n' 'https://s3-eu-central-1.amazonaws.com/idz-static-prod/users/avatars/8c08298a-41dd-4d56-9a6d-bd0783dc0d1e'
+            message: 'Screen faite ;) Je vais le rapporter à Fruzsina ! #poucave\n https://s3-eu-central-1.amazonaws.com/idz-static-prod/users/avatars/8c08298a-41dd-4d56-9a6d-bd0783dc0d1e'
         });
     }
 });
