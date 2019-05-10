@@ -151,7 +151,7 @@ bot.on('message', function (user, userID, channelID, message, evt)
             case 'aide':
                 bot.sendMessage({
                     to: channelID,
-                    message: 'Ajoutez le ! devant les mots clés :\n \ngege\ntourte\nsav\ndifferences\nenervement\ntechnique\nconnard\nexpert\nteton\nsur\nnuit\ncestpasfaux\ncombien\ncarte\nscore\ntusaisnager\nengglishplease\n'
+                    message: 'Ajoutez le ! devant les mots clés :\n \ngege\ntourte\nsav\ndifferences\nenervement\ntechnique\nconnard\nexpert\nteton\nsur\nnuit\ncestpasfaux\ncombien\ncarte\nscore\ntusaisnager\nenglishplease\n'
                 });
             break;
             // Just add any case commands if you want to..
