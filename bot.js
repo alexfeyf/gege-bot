@@ -164,4 +164,8 @@ bot.on('message', function (user, userID, channelID, message, evt)
             message: 'Screen faite ;) Je vais le rapporter à Fruzsina ! #poucave\n https://ibb.co/XyMLVKn'
         });
     }
+    else if (message.content === 'mon avatar stp')
+    {
+        message.reply(message.author.avatarURL);
+    }
 });
