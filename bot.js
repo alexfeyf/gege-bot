@@ -111,6 +111,12 @@ bot.on('message', function (user, userID, channelID, message, evt)
                     message: 'pourtant ce n\'est pas une question technique et d\'apres ce que je sais je ne suis pas la pour repondre aux questions autre que celle sur les produits'
                 });
             break;
+                case 'englishplease':
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'I am an expert and non salaried cdiscount my role is to inform you about the products for any other question I invite you to contact the customer service to ask them at 0970809050 free call Monday to Saturday 9h 19h'
+                });
+            break;
             case 'teton':
                 bot.sendMessage({
                     to: channelID,
@@ -145,7 +151,7 @@ bot.on('message', function (user, userID, channelID, message, evt)
             case 'aide':
                 bot.sendMessage({
                     to: channelID,
-                    message: 'Ajoutez le ! devant les mots clés :\n \ngege\ntourte\nsav\ndifferences\nenervement\ntechnique\nconnard\nexpert\nteton\nsur\nnuit\ncestpasfaux\ncombien\ncarte\nscore\ntusaisnager\n'
+                    message: 'Ajoutez le ! devant les mots clés :\n \ngege\ntourte\nsav\ndifferences\nenervement\ntechnique\nconnard\nexpert\nteton\nsur\nnuit\ncestpasfaux\ncombien\ncarte\nscore\ntusaisnager\nengglishplease\n'
                 });
             break;
             // Just add any case commands if you want to..
