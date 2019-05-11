@@ -164,6 +164,13 @@ bot.on('message', function (user, userID, channelID, message, evt)
             message: 'Screen faite ;) Je vais le rapporter à Fruzsina ! #poucave\n https://ibb.co/XyMLVKn'
         });
     }
+    else if (message.includes('camping'))
+    {
+        bot.sendMessage({
+            to: channelID,
+            message: 'rassurez vous je travaille dans mon mobil home au camping ^^'
+        });
+    }
     /*else if (message.includes('avatar'))
     {
         bot.sendMessage({
