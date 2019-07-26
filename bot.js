@@ -168,7 +168,7 @@ bot.on('message', function (user, userID, channelID, message, evt)
     {
         bot.sendMessage({
             to: channelID,
-            message: 'rassurez vous je travaille dans mon mobil home au camping ^^'
+            message: 'rassurez vous je travaille dans mon mobile home au camping ^^'
         });
     }
     /*else if (message.includes('avatar'))
