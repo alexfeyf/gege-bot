@@ -161,7 +161,7 @@ bot.on('message', function (user, userID, channelID, message, evt)
     {
         bot.sendMessage({
             to: channelID,
-            message: 'Screen faite ;) Je vais le rapporter à Fruzsina ! #poucave\n https://ibb.co/XyMLVKn'
+            message: 'Screen faite ;) Je vais le rapporter à Fruzsina ! #poucave\n https://ibb.co/sHtzCY2'
         });
     }
     else if (message.includes('camping'))
