@@ -164,6 +164,13 @@ bot.on('message', function (user, userID, channelID, message, evt)
             message: 'Screen faite ;) Je vais le rapporter à Ingridhaaaaaaan ! #poucave\n https://ibb.co/sHtzCY2'
         });
     }
+    else if (message.includes('chat' || 'chatte'))
+    {
+        bot.sendMessage({
+            to: channelID,
+            message: 'Voici un \n http://theoldreader.com/kittens/600/400/js'
+        });
+    }
     else if (message.includes('camping'))
     {
         bot.sendMessage({
