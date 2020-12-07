@@ -168,7 +168,7 @@ bot.on('message', function (user, userID, channelID, message, evt)
     {
         bot.sendMessage({
             to: channelID,
-            message: 'Voici un \n http://theoldreader.com/kittens/600/400/js'
+            message: 'Voici un \n https://purr.objects-us-east-1.dream.io/i/056_-_on6LLzr.gif'
         });
     }
     else if (message.includes('camping'))
